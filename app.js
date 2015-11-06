@@ -8,7 +8,7 @@ var app = angular
             .when("/", {
                 templateUrl: "view/start.html"
             })
-            .when("/projekte", {
+            .when("/projekte/:id", {
                 controller: "ChapterController",
                 /* template: "<div> ..." */
                 templateUrl: "view/Chapters.html"
